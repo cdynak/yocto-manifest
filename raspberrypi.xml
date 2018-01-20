@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default revision="morty"/>
+
+  <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git/"/>
+  <remote name="github" fetch="https://github.com/"/>
+
+  <project remote="yoctoproject" name="poky" path="poky" revision="morty">
+    <linkfile dest="setup-environment" src="oe-init-build-env"/>
+  </project>
+  <project remote="yoctoproject" name="meta-raspberrypi" path="meta-raspberrypi" revision="morty"/>
+  <project remote="github" name="lukaszgard/config-sample" path="." revision="master"/>
+</manifest>
