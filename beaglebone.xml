@@ -3,9 +3,10 @@
   <default revision="morty"/>
 
   <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git/"/>
+  <remote name="openembedded" fetch="https://github.com/openembedded"/>
   <remote name="github" fetch="https://github.com/"/>
 
   <project remote="yoctoproject" name="poky" path="poky" revision="morty"/>
-  <project remote="yoctoproject" name="meta-raspberrypi" path="meta-raspberrypi" revision="morty"/>
-  <project remote="github" name="lukaszgard/config-sample" path="." revision="master"/>
+  <project remote="openembedded" name="meta-openembedded" path="sources/meta-openembedded" revision="morty"/>
+  <project remote="yoctoproject" name="meta-ti" path="meta-ti" revision="morty"/>
 </manifest>
