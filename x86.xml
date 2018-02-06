@@ -7,5 +7,5 @@
 
   <project remote="yoctoproject" name="poky" path="poky" revision="morty"/>
   <project remote="openembedded" name="meta-openembedded" path="sources/meta-openembedded" revision="morty"/>
-  <project remote="yoctoproject" name="meta-ti" path="meta-ti" revision="morty"/>
+  <project remote="yoctoproject" name="meta-intel" path="meta-intel" revision="morty"/>
 </manifest>
